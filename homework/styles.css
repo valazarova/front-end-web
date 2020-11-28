@@ -1,0 +1,387 @@
+body{
+    
+    font-size: 16px;
+    background: linear-gradient(-100deg, rgba(162,242,241,1) 0%, rgba(177,154,254,1) 100%);
+    
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+fieldset{
+    border-style: none;
+    display:block;
+}
+
+.form{
+    background-color: white;
+    max-width: 32rem;
+    width: 90%;
+    height:60%;
+    position: fixed;
+    top:50%;
+    left:50%;
+    padding:2.5rem;
+    transform: translate(-50%,-50%);
+}
+
+#flutter{
+    font-weight: 400;
+    position: relative;
+    bottom:20px;
+}
+#login , #slogan{
+    color: #848694 ;  
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    bottom:35px;
+
+}
+ #slogan{
+     margin-top: 35px;
+ }
+label{
+    margin-top: 100px;
+}
+input {
+    width:100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #3a89d3;
+  margin-bottom: 20px;
+    
+}
+#pswd{
+    border-bottom: 1px solid #455768;
+}
+
+form {
+    background-color: white;
+    height:100%;
+
+}
+
+.buttons{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border-color: black;
+}
+
+.button-registration{
+ float:right;
+}
+
+ #submit{
+    background-color:	#54bdd6;
+    font-weight: bold;
+    color:white;
+    margin-top: 80px;
+    max-width:10rem;
+    border: none;
+    border-radius: 15px;
+    width: 140px;
+    height:30px;
+}
+
+.buttons #account{
+    background-color:white;
+    font-weight: bold;
+    color: #8798e6;
+    margin-top: 10px;
+    max-width:10rem;
+    border: none;
+    border-radius: 15px;
+    width: 140px;
+    height:30px;
+}
+
+
+body.myprofile{
+    margin:0;
+}
+.profile-headers{
+    margin:0;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.profile-headers #flutter{
+    color: #848694; 
+}
+
+#search{
+    
+    border: none;
+}
+.search-button{
+    position: relative;
+    position: right;
+    float:left;
+    width: 110px;
+    height: 25px;
+    background-color: #f6f7fd;
+    border-radius: 15px;
+    margin:10px;
+    background-origin: padding-box;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+img{
+    height: 15px;
+    width: 15px;
+    position: fixed;
+    right:20px;
+    top:15px;
+}
+
+
+
+.profileview table{
+    width:18rem;
+}
+
+table{
+    background-color: white;
+    border-collapse: collapse;
+}
+ td{
+     font-weight: 600;
+     padding-left:5px;
+    padding-top: 5px;
+ }
+
+
+#logout-button{
+    background-color:white;
+    border-radius: 13px;
+    font-weight: 800;
+    color:#57bfd7;
+    max-width:10rem;
+    border-color: #57bfd7;
+    width: 85px;
+    height:30px;
+    margin-left: 3rem;
+   
+}
+
+.profile{
+    display:flex;
+    flex-direction: row;
+    margin-top:0.8rem;
+    align-items: flex-start;
+    justify-content: center;
+    }
+table{
+    height:100%;
+    width:100%;
+    background-color: #f6f7fd; 
+}
+.profile-info{
+max-width: 18rem;
+height:13rem;
+width:18rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color:white;
+margin-right: 1rem;
+margin-left:2rem;
+
+}
+.person{
+    background-color:white;
+    height:100%rem;
+    width:18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+tr#row1 td{
+    color:#9b9da8 ;  
+    
+}
+tr#row2 td{
+    color: #57bfd7;  
+}
+
+.person-statistics{
+    padding-bottom: 1rem;
+    background-color: #f6f7fd;
+}
+.person-image{
+    
+    height:100%;
+    width:100%;
+    background-image: url('pictures/profile-pic.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:  6rem 6rem;
+   background-color: white;
+}
+.person-name{
+    margin:0;
+   font-size: 18px;
+   font-weight: 600;
+  text-align: center;
+  background-color: white;
+}
+
+.feed{
+    max-width: 55rem;
+    width:30rem;
+    height:100%;
+    margin-right: 2rem;
+    background-color: white;
+    padding-top: 0;
+}
+
+
+.comment{
+    display:flex;
+    flex-direction: row;
+    background-color: #f4fcfd;
+    color:#89d2e2 ;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+.comment-image{
+   
+    width: 30px;
+    height:25px;
+    background-image: url('pictures/smaller-pic.png') ;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+}
+#comment-field{
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: #89d2e2;
+    margin-top: 5px;
+}
+
+#comment-field::placeholder{
+    color:#89d2e2;
+}
+
+.comment1 , .comment2{
+    display:flex;
+    flex-direction: row;
+    margin-bottom:10px;
+}
+.comment1-pic{
+    margin-top: 10px;
+    width: 40px;
+    height:40px;
+    background-image: url('pictures/male.png') ;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+
+}
+
+.comment1-text , .comment2-text{
+    margin-left:10px;
+    width:100%;
+    font-size: 14px;
+
+}
+
+p{
+    margin:0;
+}
+
+.comment1-time , .comment2-time{
+    color:#a7a8b2;
+}
+.comment1-name , .comment2-name{
+    font-weight: 600;
+    color:black;
+}
+
+.comment1-buttons , .comment2-buttons {
+    display:flex;
+    flex-direction: row;
+}
+
+.comment-button1{
+    width: 15px;
+    height:15px;
+    background-image: url('pictures/like.png') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px 15px;
+}
+.comment-button2{
+    width: 15px;
+    height:15px;
+    margin-left: 20px;
+    background-image: url('pictures/dislike.png') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px 15px;
+}
+
+.comment2-pic{
+    margin-top: 10px;
+    width: 40px;
+    height:40px;
+    background-image: url('pictures/profile-pic.png') ;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+
+}
+
+.comment-close{
+    float:right;
+    margin-right: 5px;
+    color:#8c8e9b;
+}
+
+
+    @media(max-width: 890px) {
+
+        .profile{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            width:90%;
+            padding:1rem;
+        }
+    
+        .person-image{
+            width:5.25rem;
+            height: 5.25rem;
+        }
+        tr#row1 td{
+         font-size: 0.75rem;   
+        }
+    
+        tr#row2 td{
+            font-size: 1.125rem;
+        }
+    
+        .comment{
+            height:3rem;
+        }
+    
+        .person-statistics{
+            height:3.75rem;
+        }
+    
+        .person-statistics table{
+            height:3.75rem;
+        }
+        .comment1-text , .comment2-text{
+            font-size: 0.875rem;
+        }
+    }
