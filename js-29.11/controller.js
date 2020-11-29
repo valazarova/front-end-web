@@ -1,8 +1,8 @@
 
 function validateForm(){
     var email = document.forms["auth-form"].elements["email"].value;
-  
-    console.log(email);
+ 
+   
     if(email.length<5){
         document.getElementById("errors").innerText="Email must be longer than 5 symbols.";
         return false;
